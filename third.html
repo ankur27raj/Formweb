@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <style>
+    .container{
+        background-color: aquamarine;
+        border: 2px solid blueviolet;
+        border-radius: 4px;
+        color: rgb(0, 0, 255);
+        margin: 200px 150px;
+        width: 500px;
+    }
+    .container div{
+        margin: 10px 20px;
+    }
+    input{
+        border: 2px solid black;
+        border-radius: 4px;
+
+    }
+    .container button{
+        margin:10px 20px;
+        font-size: 20px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: crimson;
+        color: burlywood;
+    }
+    .container h1{
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form action="back.php">
+            <div>Name: <input type="text" placeholder="Enter your Name"></div>
+            <div>Username: <input type="text" placeholder="Enter Username"></div>
+            <div>Password: <input type="password" placeholder="Enter Password"></div>
+            <div>Email: <input type="email" placeholder="Enter your Email ID"></div>
+            <button class="btn"> Submit</button>           
+        </form>
+    </div>
+</body>
+</html>
